@@ -1,12 +1,5 @@
 Omegle clone based on webRTC protocol.
 
-Frontend makes websocket connection
-once we add user on backend a room is created which triggers send-offer event to respective frontend of users and we have event listner present here.
+To build the Project follow respective readme of each module.
 
-websocket connection is formed between frontend and backend from frontend using backend URL
-after that following events occurs in respective order
-send-offer (backend->frontend)
-offer(frontend->backend)
-offer(backend -> frontend)
-answer(frontend -> backend)
-answer( backend -> frontend)
+<img width="1510" alt="Screenshot 2025-03-16 at 1 39 59 PM" src="https://github.com/user-attachments/assets/5b5422ba-8721-463e-b329-76fdfd10aca9" />
