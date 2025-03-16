@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",  // Compiled JavaScript files will be output here
+    "target": "ES6",      // Set the JavaScript version
+    "module": "commonjs", // Module system (CommonJS for Node.js)
+    "esModuleInterop": true, // Enable interoperability with CommonJS
+    "strict": true        // Enable strict type-checking
+  },
+  "include": ["src/**/*"],  // Include all files in 'src' folder
+  "exclude": ["node_modules"]  // Exclude 'node_modules' from being compiled
+}
